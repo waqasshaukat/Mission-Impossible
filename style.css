@@ -1,0 +1,361 @@
+*
+{
+    margin: 0;
+    padding-right: 0;
+    text-decoration: none;
+}
+.container
+{
+    width: 100%;
+}
+.navbar
+{
+    width: 100%;
+    height: 10vh;
+    background: transparent;
+     display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+.navbar ul
+{
+    width: 55%;
+    height: 8vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    text-transform: uppercase;
+    
+}
+.hero
+{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: rgb(240, 240, 240);
+}
+.hero-text
+{
+    width: 35%;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.hero-text button
+{
+    background: cornflowerblue;
+    height: 5vh;
+    width: 15vw;
+    color: white;
+}
+.hero img
+{
+    height: 60vh;
+    width: 30vw;
+}
+.aboutme
+{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+.aboutme-text
+{
+    display: flex;
+    height: 35vh;
+    width: 45vw;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.aboutme-text button
+{
+    color: white;
+    background: cornflowerblue;
+    height: 5vh;
+    width: 15vw;
+}
+.offers
+{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.offers-div
+{
+    width: 80%;
+    height: 80vh;
+    background: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.offers-entry
+{
+    width: 20vw;
+    height: 35vh;
+    background: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.offers-entry i
+{
+    font-size: 5vh;
+}
+.offers-entry p
+{
+    color: grey;
+}
+.figures
+{
+    width: 100vw;
+    height: 30vh;
+    background-color: cornflowerblue;
+    display: flex;
+    justify-content: space-around;
+
+}
+.figures-entry
+{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+.projects-header
+{
+    width: 100vw;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.projects-header-text
+{
+    text-align: center;
+
+}
+.projects-container
+{
+    width: 100vw;
+    height: 120vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border: 1px solid none;
+    
+}
+.project
+{
+    width: 26vw;
+    height: 60vh;
+    text-align: center;
+    border: 1px solid none;
+}
+.project img
+{
+    width: 100%;
+    height: 85%;
+}
+.project p
+{
+    color: grey;
+}
+.feedback-container
+{
+    width: 100%;
+    height: 60vh;
+    background: rgb(238, 235, 235);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.feedback-text
+{
+    width: 50%;
+    height: 30%;
+    border: 1px solid none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.feedbacks
+{
+    height: 25vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    border: 1px solid none;
+}
+.feedback-entry
+{
+    width: 40%;
+    height: 40%;
+    border: 1px solid none;
+    display: flex;
+}
+.feedbackers
+{
+    width: 100%;
+    height: 35%;
+    border: 1px solid none;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.feedback-name
+{
+    width: 23%;
+    height: 40%;
+    border: 1px solid none;
+    /* display: flex; */
+}
+.feedback-entry img
+{
+    width: 25%;
+    /* height: 20; */
+    border-radius: 50%;
+}
+.your-plan
+{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.plans
+{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content:space-evenly;
+}
+.plan-entry
+{
+    width: 23%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgb(238, 235, 235);
+    justify-content: space-around;
+}
+.circle
+{
+    width: 50%;
+    height: 30%;
+    background: cornflowerblue;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inner-circle
+{
+    width: 50%;
+    height: 50%;
+    background: rgb(238, 235, 235);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.post-container
+{
+    width: 100%;
+    height: 100vh;
+    background: rgb(238, 235, 235);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.post-text
+{
+    width: 50%;
+    height: 20vh;
+    border: 1px solid NONE;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+
+}
+.post-entry-container
+{
+    width: 80%;
+    height: 80vh;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid NONE;
+}
+.post-entry
+{
+    width: 31.5%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border: 1px solid NONE;
+}
+.user
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.premium
+{
+    width: 100%;
+    height: 30vh;
+    background: cornflowerblue;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20vh;
+}
+.footer
+{
+    width: 100%;
+    height: 50vh;
+    background: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.about-me
+{
+    width: 30%;
+    height: 20vh;
+    border: 1px solid none;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.follow-me
+{
+    width: 15%;
+    height: 20vh;
+    border: 1px solid none;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
